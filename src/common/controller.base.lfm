@@ -1,0 +1,17 @@
+object BaseController: TBaseController
+  OldCreateOrder = False
+  Actions = <  
+    item
+      Name = 'health'
+      Default = True
+      OnRequest = healthCheck
+      Template.AllowTagParams = False
+    end>
+  ActionVar = 'a'
+  CreateSession = False
+  Height = 826
+  HorizontalOffset = 1782
+  VerticalOffset = 820
+  Width = 1168
+  PPI = 192
+end

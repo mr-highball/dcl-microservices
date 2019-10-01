@@ -1,0 +1,3 @@
+[submodule "src/common/ezthreads"]
+	path = src/common/ezthreads
+	url = https://github.com/mr-highball/ezthreads.git
